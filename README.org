@@ -1,0 +1,13 @@
+#+TITLE: Da Mesh
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: showall noindent inlineimages
+
+For now, just some notes about trying to make a kubernetes cluster.
+
+Following [[https://gist.github.com/triangletodd/02f595cd4c0dc9aac5f7763ca2264185][this guide]].
+
+Had to do something to enable [[https://superuser.com/questions/1344024/how-do-i-make-bridge-nf-call-iptables-change-persist-across-reboot][this iptables module]], supposedly
+persists, but I'm not rebooting this thing.
+
+Generated a new SSH key pair on the kubernetes console.  Just ran
+=k3sup install= and let it do its thing.
